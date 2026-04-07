@@ -1,0 +1,14 @@
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.left = None
+        self.right = None
+        self.parent = None
+root=None
+a=[1,10,11,7,8,14,13]
+print(root)
+root=Node(a[0])
+print(root.data)
+b=Node(a[1])
+print(b)
+print(b.data)
